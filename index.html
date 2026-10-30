@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ইমন কম্পিউটার টেকনোলজি - প্লাস্টিক আইডি কার্ড প্রিন্টিং সার্ভিস</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Google Fonts: Hind Siliguri for Bengali -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#ecfdf5',
+                            100: '#d1fae5',
+                            500: '#10b981',
+                            600: '#059669',
+                            700: '#047857',
+                            800: '#065f46',
+                            900: '#064e3b'
+                        },
+                        amber: {
+                            500: '#f59e0b',
+                            600: '#d97706'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Hind Siliguri', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background-color: #f8fafc;
+        }
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="text-slate-800 bg-slate-50 min-h-screen flex flex-col justify-between selection:bg-brand-500 selection:text-white">
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="bg-slate-900 text-white text-xs sm:text-sm py-2 px-3 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex justify-between items-center text-center sm:text-left">
+            <div class="flex items-center gap-2 mx-auto sm:mx-0 truncate">
+                <span class="bg-amber-500 text-slate-950 font-extrabold text-[10px] sm:text-xs px-2 py-0.5 rounded-full uppercase">ধামাকা অফার</span>
+                <span class="truncate font-medium">সকল প্রকার প্লাস্টিক আইডি কার্ড করা হয় | ১ পিস কার্ডের দাম মাত্র ৩৫০ টাকা!</span>
+            </div>
+            <div class="hidden sm:flex items-center gap-4 text-xs font-medium text-slate-300">
+                <span><i class="fa-solid fa-truck-fast text-amber-400 mr-1"></i> হোম ডেলিভারি সম্পূর্ণ ফ্রি</span>
+                <a href="https://wa.me/8801602303782" target="_blank" class="text-emerald-400 hover:underline flex items-center gap-1 font-bold">
+                    <i class="fa-brands fa-whatsapp text-sm"></i> ০১৬০২৩০৩৭৮২
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-2">
+            <!-- Brand Logo & Name -->
+            <a href="#" class="flex items-center gap-2 sm:gap-3 group">
+                <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-gradient-to-tr from-brand-600 to-emerald-400 flex items-center justify-center text-white shadow-md shadow-brand-500/20 group-hover:scale-105 transition-transform">
+                    <i class="fa-solid fa-id-card text-xl sm:text-2xl"></i>
+                </div>
+                <div>
+                    <span class="font-extrabold text-base sm:text-2xl tracking-tight text-slate-900 leading-none block">
+                        ইমন কম্পিউটার <span class="text-brand-600">টেকনোলজি</span>
+                    </span>
+                    <span class="text-[10px] sm:text-xs text-slate-500 font-medium tracking-wide block mt-0.5">
+                        সকল প্রকার প্লাস্টিক আইডি কার্ড তৈরি করা হয়
+                    </span>
+                </div>
+            </a>
+
+            <!-- Contact Header Badge / WhatsApp Button -->
+            <div class="flex items-center gap-2">
+                <a href="tel:01602303782" class="hidden md:flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-800 px-3 py-2 rounded-xl text-xs font-bold transition-colors">
+                    <i class="fa-solid fa-phone text-brand-600"></i>
+                    <span>০১৬০২৩০৩৭৮২</span>
+                </a>
+                <a href="https://wa.me/8801602303782?text=আমি%20প্লাস্টিক%20আইডি%20কার্ড%20প্রিন্ট%20করতে%20চাই।" target="_blank" class="bg-brand-600 hover:bg-brand-700 text-white px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold flex items-center gap-1.5 shadow-md shadow-brand-600/20 transition-all">
+                    <i class="fa-brands fa-whatsapp text-base sm:text-lg"></i>
+                    <span class="hidden xs:inline">হোয়াটসঅ্যাপ</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="bg-gradient-to-b from-slate-900 to-slate-800 text-white py-8 sm:py-12 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid md:grid-cols-12 gap-6 items-center">
+                <div class="md:col-span-7 space-y-3 sm:space-y-4 text-center md:text-left">
+                    <div class="inline-flex items-center gap-1.5 bg-amber-500/20 border border-amber-500/40 text-amber-300 px-3 py-1 rounded-full text-xs font-bold">
+                        <i class="fa-solid fa-bolt text-amber-400"></i> ১০০% ওয়াটারপ্রুফ ও টেকসই আইডি কার্ড
+                    </div>
+                    <h1 class="text-2xl sm:text-4xl font-extrabold leading-tight">
+                        যে কোনো প্লাস্টিক আইডি কার্ড <br class="hidden sm:inline">
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-amber-300">১ পিস মাত্র ৩৫০ টাকা!</span>
+                    </h1>
+                    <p class="text-slate-300 text-xs sm:text-base max-w-xl">
+                        এনআইডি কার্ড, ড্রাইভিং লাইসেন্স, স্টুডেন্ট কার্ড ও অফিসিয়াল স্মার্ট আইডি কার্ড সম্পূর্ণ এইচডি কোয়ালিটিতে প্রিন্ট করা হয়।
+                    </p>
+
+                    <!-- Delivery Guarantees Grid -->
+                    <div class="pt-2 grid grid-cols-2 gap-2 text-left max-w-md mx-auto md:mx-0">
+                        <div class="bg-white/10 backdrop-blur-sm p-2.5 rounded-xl border border-white/10 flex items-center gap-2.5">
+                            <i class="fa-solid fa-truck-ramp-box text-amber-400 text-lg sm:text-xl"></i>
+                            <div>
+                                <div class="text-xs font-bold text-white">ঢাকার ভেতরে</div>
+                                <div class="text-[11px] text-emerald-300 font-semibold">২ দিনের মধ্যে ডেলিভারি</div>
+                            </div>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm p-2.5 rounded-xl border border-white/10 flex items-center gap-2.5">
+                            <i class="fa-solid fa-globe text-emerald-400 text-lg sm:text-xl"></i>
+                            <div>
+                                <div class="text-xs font-bold text-white">সারা বাংলাদেশে</div>
+                                <div class="text-[11px] text-amber-300 font-semibold">৩ দিনের মধ্যে হোম ডেলিভারি</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:col-span-5 flex justify-center mt-4 md:mt-0">
+                    <div class="bg-white/5 border border-white/10 p-4 rounded-3xl backdrop-blur-md max-w-xs text-center space-y-2">
+                        <span class="inline-block bg-emerald-500 text-white text-[11px] font-extrabold px-3 py-1 rounded-full">
+                            <i class="fa-solid fa-gift mr-1"></i> বিশেষ সুবিধা
+                        </span>
+                        <div class="text-3xl font-black text-amber-400">৳৩৫০ <span class="text-sm text-slate-300 font-normal">/ পিস</span></div>
+                        <div class="text-xs text-slate-200 font-semibold">
+                            <i class="fa-solid fa-circle-check text-emerald-400"></i> হোম ডেলিভারি সম্পূর্ণ ফ্রি!
+                        </div>
+                        <p class="text-[11px] text-slate-400">কোনো অতিরিক্ত ডেলিভারি খরচ নেই।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN PRODUCT CATALOG SECTION -->
+    <main class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-8 sm:py-12">
+        <div class="flex flex-col sm:flex-row justify-between items-center mb-6 gap-2 border-b border-slate-200 pb-4">
+            <div>
+                <h2 class="text-xl sm:text-2xl font-extrabold text-slate-900 flex items-center gap-2">
+                    <i class="fa-solid fa-boxes-packing text-brand-600"></i> আমাদের সার্ভিস সমূহ
+                </h2>
+                <p class="text-xs sm:text-sm text-slate-500">আপনার প্রয়োজনীয় প্লাস্টিক কার্ড সিলেক্ট করে অর্ডারে ক্লিক করুন</p>
+            </div>
+            <span class="bg-emerald-100 text-brand-800 text-xs font-bold px-3 py-1 rounded-full">
+                হোম ডেলিভারি সম্পূর্ণ ফ্রি
+            </span>
+        </div>
+
+        <!-- PRODUCT GRID: EXACTLY 2 COLUMNS ON MOBILE SCREEN -->
+        <div id="productGrid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
+            
+            <!-- Product 1: NID Card -->
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col justify-between group">
+                <div class="relative aspect-square overflow-hidden bg-slate-100 cursor-pointer" onclick="openOrderModal('স্মার্ট এনআইডি কার্ড', 350)">
+                    <img src="images/15.jpg" alt="এনআইডি কার্ড" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/400x400/059669/ffffff?text=NID+Card';">
+                    <span class="absolute top-2 left-2 bg-amber-500 text-slate-950 font-black text-[10px] sm:text-xs px-2 py-0.5 rounded-md shadow-md">
+                        ফ্রি ডেলিভারি
+                    </span>
+                </div>
+                <div class="p-2.5 sm:p-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-xs sm:text-base text-slate-900 leading-tight mb-1">
+                            স্মার্ট এনআইডি কার্ড
+                        </h3>
+                        <p class="text-[10px] sm:text-xs text-slate-500 mb-2">হাই ডেফিনেশন কালার প্রিন্ট</p>
+                    </div>
+                    <div>
+                        <div class="flex items-baseline gap-1 mb-2">
+                            <span class="text-base sm:text-xl font-extrabold text-brand-600">৳৩৫০</span>
+                            <span class="text-[10px] sm:text-xs text-slate-400 line-through">৳৫০০</span>
+                        </div>
+                        <button onclick="openOrderModal('স্মার্ট এনআইডি কার্ড', 350)" class="w-full bg-brand-600 hover:bg-brand-700 active:scale-95 text-white py-2 rounded-xl text-xs sm:text-sm font-bold flex items-center justify-center gap-1.5 shadow-sm transition-all">
+                            <i class="fa-solid fa-cart-shopping text-xs"></i>
+                            <span>অর্ডার</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2: Driving License -->
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col justify-between group">
+                <div class="relative aspect-square overflow-hidden bg-slate-100 cursor-pointer" onclick="openOrderModal('ড্রাইভিং লাইসেন্স', 350)">
+                    <img src="10521.jpg" alt="ড্রাইভিং লাইসেন্স" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/400x400/059669/ffffff?text=Driving+License';">
+                    <span class="absolute top-2 left-2 bg-amber-500 text-slate-950 font-black text-[10px] sm:text-xs px-2 py-0.5 rounded-md shadow-md">
+                        ফ্রি ডেলিভারি
+                    </span>
+                </div>
+                <div class="p-2.5 sm:p-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-xs sm:text-base text-slate-900 leading-tight mb-1">
+                            ড্রাইভিং লাইসেন্স
+                        </h3>
+                        <p class="text-[10px] sm:text-xs text-slate-500 mb-2">কিউআর কোডসহ পারফেক্ট ফিনিশিং</p>
+                    </div>
+                    <div>
+                        <div class="flex items-baseline gap-1 mb-2">
+                            <span class="text-base sm:text-xl font-extrabold text-brand-600">৳৩৫০</span>
+                            <span class="text-[10px] sm:text-xs text-slate-400 line-through">৳৫০০</span>
+                        </div>
+                        <button onclick="openOrderModal('ড্রাইভিং লাইসেন্স', 350)" class="w-full bg-brand-600 hover:bg-brand-700 active:scale-95 text-white py-2 rounded-xl text-xs sm:text-sm font-bold flex items-center justify-center gap-1.5 shadow-sm transition-all">
+                            <i class="fa-solid fa-cart-shopping text-xs"></i>
+                            <span>অর্ডার</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3: Official Card -->
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col justify-between group">
+                <div class="relative aspect-square overflow-hidden bg-slate-100 cursor-pointer" onclick="openOrderModal('অফিসিয়াল কার্ড', 350)">
+                    <img src="10527.jpg" alt="অফিসিয়াল কার্ড" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/400x400/059669/ffffff?text=Official+Card';">
+                    <span class="absolute top-2 left-2 bg-amber-500 text-slate-950 font-black text-[10px] sm:text-xs px-2 py-0.5 rounded-md shadow-md">
+                        ফ্রি ডেলিভারি
+                    </span>
+                </div>
+                <div class="p-2.5 sm:p-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-xs sm:text-base text-slate-900 leading-tight mb-1">
+                            অফিসিয়াল কার্ড
+                        </h3>
+                        <p class="text-[10px] sm:text-xs text-slate-500 mb-2">কর্পোরেট আইডি ও স্টাফ কার্ড</p>
+                    </div>
+                    <div>
+                        <div class="flex items-baseline gap-1 mb-2">
+                            <span class="text-base sm:text-xl font-extrabold text-brand-600">৳৩৫০</span>
+                            <span class="text-[10px] sm:text-xs text-slate-400 line-through">৳৫০০</span>
+                        </div>
+                        <button onclick="openOrderModal('অফিসিয়াল কার্ড', 350)" class="w-full bg-brand-600 hover:bg-brand-700 active:scale-95 text-white py-2 rounded-xl text-xs sm:text-sm font-bold flex items-center justify-center gap-1.5 shadow-sm transition-all">
+                            <i class="fa-solid fa-cart-shopping text-xs"></i>
+                            <span>অর্ডার</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4: Both Side Plastic ID Card -->
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col justify-between group">
+                <div class="relative aspect-square overflow-hidden bg-slate-100 cursor-pointer" onclick="openOrderModal('প্লাস্টিক আইডি কার্ড (সেট)', 350)">
+                    <img src="10749.jpg" alt="প্লাস্টিক আইডি কার্ড" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/400x400/059669/ffffff?text=Plastic+Card';">
+                    <span class="absolute top-2 left-2 bg-amber-500 text-slate-950 font-black text-[10px] sm:text-xs px-2 py-0.5 rounded-md shadow-md">
+                        ফ্রি ডেলিভারি
+                    </span>
+                </div>
+                <div class="p-2.5 sm:p-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-xs sm:text-base text-slate-900 leading-tight mb-1">
+                            প্লাস্টিক আইডি কার্ড (সেট)
+                        </h3>
+                        <p class="text-[10px] sm:text-xs text-slate-500 mb-2">উভয় পিঠ রঙিন প্রিন্টিং</p>
+                    </div>
+                    <div>
+                        <div class="flex items-baseline gap-1 mb-2">
+                            <span class="text-base sm:text-xl font-extrabold text-brand-600">৳৩৫০</span>
+                            <span class="text-[10px] sm:text-xs text-slate-400 line-through">৳৫০০</span>
+                        </div>
+                        <button onclick="openOrderModal('প্লাস্টিক আইডি কার্ড (সেট)', 350)" class="w-full bg-brand-600 hover:bg-brand-700 active:scale-95 text-white py-2 rounded-xl text-xs sm:text-sm font-bold flex items-center justify-center gap-1.5 shadow-sm transition-all">
+                            <i class="fa-solid fa-cart-shopping text-xs"></i>
+                            <span>অর্ডার</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 5: Student ID Card -->
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col justify-between group">
+                <div class="relative aspect-square overflow-hidden bg-slate-100 cursor-pointer" onclick="openOrderModal('স্টুডেন্ট আইডি কার্ড', 350)">
+                    <img src="10515.jpg" alt="স্টুডেন্ট আইডি কার্ড" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/400x400/059669/ffffff?text=Student+ID';">
+                    <span class="absolute top-2 left-2 bg-amber-500 text-slate-950 font-black text-[10px] sm:text-xs px-2 py-0.5 rounded-md shadow-md">
+                        ফ্রি ডেলিভারি
+                    </span>
+                </div>
+                <div class="p-2.5 sm:p-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-xs sm:text-base text-slate-900 leading-tight mb-1">
+                            স্টুডেন্ট আইডি কার্ড
+                        </h3>
+                        <p class="text-[10px] sm:text-xs text-slate-500 mb-2">স্কুল ও কলেজ শিক্ষার্থীদের জন্য</p>
+                    </div>
+                    <div>
+                        <div class="flex items-baseline gap-1 mb-2">
+                            <span class="text-base sm:text-xl font-extrabold text-brand-600">৳৩৫০</span>
+                            <span class="text-[10px] sm:text-xs text-slate-400 line-through">৳৫০০</span>
+                        </div>
+                        <button onclick="openOrderModal('স্টুডেন্ট আইডি কার্ড', 350)" class="w-full bg-brand-600 hover:bg-brand-700 active:scale-95 text-white py-2 rounded-xl text-xs sm:text-sm font-bold flex items-center justify-center gap-1.5 shadow-sm transition-all">
+                            <i class="fa-solid fa-cart-shopping text-xs"></i>
+                            <span>অর্ডার</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6: Business PVC Card -->
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col justify-between group">
+                <div class="relative aspect-square overflow-hidden bg-slate-100 cursor-pointer" onclick="openOrderModal('প্লাস্টিক ভিজিটিং কার্ড', 350)">
+                    <img src="10526.jpg" alt="প্লাস্টিক ভিজিটিং কার্ড" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='https://placehold.co/400x400/059669/ffffff?text=Business+Card';">
+                    <span class="absolute top-2 left-2 bg-amber-500 text-slate-950 font-black text-[10px] sm:text-xs px-2 py-0.5 rounded-md shadow-md">
+                        ফ্রি ডেলিভারি
+                    </span>
+                </div>
+                <div class="p-2.5 sm:p-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-xs sm:text-base text-slate-900 leading-tight mb-1">
+                            প্লাস্টিক ভিজিটিং কার্ড
+                        </h3>
+                        <p class="text-[10px] sm:text-xs text-slate-500 mb-2">স্মার্ট ও প্রিমিয়াম লুকিং</p>
+                    </div>
+                    <div>
+                        <div class="flex items-baseline gap-1 mb-2">
+                            <span class="text-base sm:text-xl font-extrabold text-brand-600">৳৩৫০</span>
+                            <span class="text-[10px] sm:text-xs text-slate-400 line-through">৳৫০০</span>
+                        </div>
+                        <button onclick="openOrderModal('প্লাস্টিক ভিজিটিং কার্ড', 350)" class="w-full bg-brand-600 hover:bg-brand-700 active:scale-95 text-white py-2 rounded-xl text-xs sm:text-sm font-bold flex items-center justify-center gap-1.5 shadow-sm transition-all">
+                            <i class="fa-solid fa-cart-shopping text-xs"></i>
+                            <span>অর্ডার</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 text-xs sm:text-sm py-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div>
+                <h3 class="font-bold text-white text-base mb-2">ইমন কম্পিউটার টেকনোলজি</h3>
+                <p class="text-xs text-slate-400">সকল প্রকার প্লাস্টিক আইডি কার্ড করা হয়। এনআইডি, ড্রাইভিং লাইসেন্স এবং অফিসিয়াল কার্ড সহ যেকোনো প্লাস্টিক কার্ড প্রিন্ট সুবিধা।</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-2">ডেলিভারি তথ্য</h4>
+                <ul class="space-y-1 text-xs">
+                    <li>• প্রতি পিস কার্ডের দাম: <strong>৳৩৫০ (একদাম)</strong></li>
+                    <li>• ডেলিভারি চার্জ: <strong>সম্পূর্ণ ফ্রি</strong></li>
+                    <li>• ঢাকার ভেতরে: <strong>২ দিনের মধ্যে ডেলিভারি</strong></li>
+                    <li>• সারা বাংলাদেশে: <strong>৩ দিনের মধ্যে হোম ডেলিভারি</strong></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-2">যোগাযোগ ও হোয়াটসঅ্যাপ</h4>
+                <p class="text-xs mb-2"><i class="fa-solid fa-phone text-brand-500 mr-1"></i> মোবাইল / হোয়াটসঅ্যাপ: <strong>০১৬০২৩০৩৭৮২</strong></p>
+                <a href="https://wa.me/8801602303782" target="_blank" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-3 py-1.5 rounded-lg text-xs font-bold transition-colors">
+                    <i class="fa-brands fa-whatsapp mr-1"></i> সরাসরি মেসজে দিন
+                </a>
+            </div>
+        </div>
+        <div class="text-center text-[11px] text-slate-600 border-t border-slate-800 mt-6 pt-4">
+            © 2026 ইমন কম্পিউটার টেকনোলজি। সর্বস্বত্ব সংরক্ষিত।
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/8801602303782?text=আসসালামু%20আলাইকুম,%20আমি%20প্লাস্টিক%20আইডি%20কার্ড%20প্রিন্ট%20করতে%20চাই।" target="_blank" class="fixed bottom-5 right-5 z-40 bg-emerald-500 hover:bg-emerald-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-xl shadow-emerald-500/40 transform hover:scale-110 transition-all">
+        <i class="fa-brands fa-whatsapp text-2xl"></i>
+    </a>
+
+    <!-- ORDER MODAL FORM -->
+    <div id="orderModal" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/70 backdrop-blur-sm hidden p-3">
+        <div class="bg-white rounded-2xl max-w-md w-full p-5 shadow-2xl relative">
+            <button onclick="closeOrderModal()" class="absolute top-3 right-3 text-slate-400 hover:text-slate-600 text-xl w-7 h-7 flex items-center justify-center rounded-full bg-slate-100">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="text-center mb-3">
+                <h3 id="modalProductName" class="text-base font-extrabold text-slate-900">
+                    অর্ডার ফর্ম
+                </h3>
+            </div>
+
+            <form id="checkoutForm" onsubmit="handleFormSubmit(event)" class="space-y-3 text-xs sm:text-sm">
+                <div>
+                    <label class="block font-bold text-slate-700 mb-1">আপনার নাম *</label>
+                    <input type="text" id="custName" required placeholder="আপনার পূর্ণ নাম লিখুন" class="w-full px-3 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500">
+                </div>
+
+                <div>
+                    <label class="block font-bold text-slate-700 mb-1">মোবাইল নম্বর *</label>
+                    <input type="tel" id="custPhone" required placeholder="016XXXXXXXX" class="w-full px-3 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500">
+                </div>
+
+                <div>
+                    <label class="block font-bold text-slate-700 mb-1">ডেলিভারি এলাকা *</label>
+                    <select id="custLocation" class="w-full px-3 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white">
+                        <option value="dhaka">ঢাকার ভেতরে (২ দিনের মধ্যে ডেলিভারি)</option>
+                        <option value="outside">ঢাকার বাইরে / সারা বাংলাদেশে (৩ দিনের মধ্যে ডেলিভারি)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block font-bold text-slate-700 mb-1">ঠিকানা *</label>
+                    <textarea id="custAddress" required rows="2" placeholder="আপনার সম্পূর্ণ ঠিকানা লিখুন" class="w-full px-3 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
+                </div>
+
+                <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-200 text-xs space-y-1">
+                    <div class="flex justify-between">
+                        <span>১ পিস কার্ডের মূল্য:</span>
+                        <span class="font-bold">৳৩৫০</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span>হোম ডেলিভারি চার্জ:</span>
+                        <span class="font-bold text-emerald-600">ফ্রি (৳০)</span>
+                    </div>
+                </div>
+
+                <button type="submit" class="w-full bg-brand-600 hover:bg-brand-700 text-white py-2.5 rounded-xl font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all">
+                    <i class="fa-brands fa-whatsapp text-base"></i>
+                    <span>অর্ডার নিশ্চিত করুন (WhatsApp)</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        let selectedProductTitle = '';
+
+        function openOrderModal(productTitle, price) {
+            selectedProductTitle = productTitle;
+            document.getElementById('modalProductName').innerText = productTitle;
+            document.getElementById('orderModal').classList.remove('hidden');
+        }
+
+        function closeOrderModal() {
+            document.getElementById('orderModal').classList.add('hidden');
+            document.getElementById('checkoutForm').reset();
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('custName').value.trim();
+            const phone = document.getElementById('custPhone').value.trim();
+            const locationType = document.getElementById('custLocation').value;
+            const address = document.getElementById('custAddress').value.trim();
+
+            const deliveryTime = (locationType === 'dhaka') ? 'ঢাকার ভেতরে (২ দিন)' : 'ঢাকার বাইরে (৩ দিন)';
+
+            const message = `*নতুন প্লাস্টিক আইডি কার্ড অর্ডার*%0A%0A` +
+                `*প্রোডাক্ট:* ${selectedProductTitle}%0A` +
+                `*মূল্য:* ৳৩৫০ (ফ্রি ডেলিভারি)%0A%0A` +
+                `*গ্রাহকের নাম:* ${name}%0A` +
+                `*মোবাইল নম্বর:* ${phone}%0A` +
+                `*ডেলিভারি সময়:* ${deliveryTime}%0A` +
+                `*ঠিকানা:* ${address}`;
+
+            window.open(`https://wa.me/8801602303782?text=${message}`, '_blank');
+            closeOrderModal();
+        }
+    </script>
+</body>
+</html>
